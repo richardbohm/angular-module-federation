@@ -5,7 +5,8 @@
   "scripts": {
     "host": "nx run host:serve",
     "remote": "nx run remote:serve",
-    "all": "nx serve host --devRemotes=remote"
+    "all": "nx serve host --devRemotes=remote",
+    "all2": "nx serve host2 --devRemotes=remote"
   },
   "private": true,
   "dependencies": {
