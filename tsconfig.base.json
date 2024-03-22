@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@federation/form": ["shared/form/src/index.ts"],
+      "remote/Routes": ["remote/src/app/remote-entry/entry.routes.ts"],
+      "remote/component": ["remote/src/app/remote-entry/entry.component.ts"],
+      "remote2/Routes": ["remote2/src/app/remote-entry/entry.routes.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'federation',
-  preset: '../../jest.preset.js',
+  displayName: 'remote',
+  preset: '../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/federation',
+  coverageDirectory: '../coverage/remote',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',

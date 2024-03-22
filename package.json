@@ -2,7 +2,11 @@
   "name": "@federation/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "host": "nx run host:serve",
+    "remote": "nx run remote:serve",
+    "all": "nx serve host --devRemotes=remote"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~17.2.0",
@@ -32,6 +36,8 @@
     "@nx/eslint-plugin": "18.1.2",
     "@nx/jest": "18.1.2",
     "@nx/js": "18.1.2",
+    "@nx/web": "18.1.2",
+    "@nx/webpack": "18.1.2",
     "@nx/workspace": "18.1.2",
     "@schematics/angular": "~17.2.0",
     "@swc-node/register": "~1.8.0",
